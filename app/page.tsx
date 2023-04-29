@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex justify-center gap-3 items-center align-middle h-fit">
+    <main className="flexLayout">
       <input
         type="url"
         placeholder="Past url link"
