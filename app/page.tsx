@@ -6,11 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="flexLayout">
-      <input
-        type="url"
-        placeholder="Past url link"
-        className="outline-none bg-orange-500/25 text-sm py-3 px-4 rounded-xl"
-      />
+      <input type="url" placeholder="Past url link" className="inputDesign" />
       <button className="bg-orange-500 py-2 px-4 rounded-md">Download</button>
     </main>
   );

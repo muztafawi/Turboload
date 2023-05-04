@@ -6,4 +6,8 @@
   .flexLayout {
     @apply flex justify-center gap-3 items-center;
   }
+
+  .inputDesign {
+    @apply outline-none bg-orange-500/25 text-sm py-3 px-4 rounded-xl;
+  }
 }

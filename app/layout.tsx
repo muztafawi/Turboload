@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#0A0B10] text-[#ededed] h-screen">
+      <body className="gridLayout bg-[#f6f1ee] text-[#ededed] h-screen">
         <Header />
         <div>{children}</div>
         <Footer />
